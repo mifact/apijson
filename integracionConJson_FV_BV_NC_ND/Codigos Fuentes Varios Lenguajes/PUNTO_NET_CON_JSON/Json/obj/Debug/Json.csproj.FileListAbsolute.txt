@@ -1,0 +1,68 @@
+C:\Users\Oscar\Documents\Visual Studio 2017\Json\Json\bin\Debug\Json.exe.config
+C:\Users\Oscar\Documents\Visual Studio 2017\Json\Json\bin\Debug\Json.exe
+C:\Users\Oscar\Documents\Visual Studio 2017\Json\Json\bin\Debug\Json.pdb
+C:\Users\Oscar\Documents\Visual Studio 2017\Json\Json\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Oscar\Documents\Visual Studio 2017\Json\Json\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Oscar\Documents\Visual Studio 2017\Json\Json\obj\Debug\Json.csprojResolveAssemblyReference.cache
+C:\Users\Oscar\Documents\Visual Studio 2017\Json\Json\obj\Debug\Json.Form1.resources
+C:\Users\Oscar\Documents\Visual Studio 2017\Json\Json\obj\Debug\Json.Properties.Resources.resources
+C:\Users\Oscar\Documents\Visual Studio 2017\Json\Json\obj\Debug\Json.csproj.GenerateResource.Cache
+C:\Users\Oscar\Documents\Visual Studio 2017\Json\Json\obj\Debug\Json.csproj.CoreCompileInputs.cache
+C:\Users\Oscar\Documents\Visual Studio 2017\Json\Json\obj\Debug\Json.exe
+C:\Users\Oscar\Documents\Visual Studio 2017\Json\Json\obj\Debug\Json.pdb
+C:\Users\Oscar\Documents\Visual Studio 2017\Json\Json\bin\Debug\RestSharp.dll
+C:\Users\Oscar\Documents\Visual Studio 2017\Json\Json\bin\Debug\RestSharp.xml
+C:\Users\Oscar\Documents\work\Documentacion\integracionConJson\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\obj\Debug\Json.csprojResolveAssemblyReference.cache
+C:\Users\Oscar\Documents\work\Documentacion\integracionConJson\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\obj\Debug\Json.Form1.resources
+C:\Users\Oscar\Documents\work\Documentacion\integracionConJson\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\obj\Debug\Json.Properties.Resources.resources
+C:\Users\Oscar\Documents\work\Documentacion\integracionConJson\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\obj\Debug\Json.csproj.GenerateResource.Cache
+C:\Users\Oscar\Documents\work\Documentacion\integracionConJson\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\obj\Debug\Json.csproj.CoreCompileInputs.cache
+C:\Users\Oscar\Documents\work\Documentacion\integracionConJson\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\obj\Debug\Json.exe
+C:\Users\Oscar\Documents\work\Documentacion\integracionConJson\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\obj\Debug\Json.pdb
+C:\Users\Oscar\Documents\work\Documentacion\integracionConJson\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\bin\Debug\Json.exe.config
+C:\Users\Oscar\Documents\work\Documentacion\integracionConJson\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\bin\Debug\Json.exe
+C:\Users\Oscar\Documents\work\Documentacion\integracionConJson\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\bin\Debug\Json.pdb
+C:\Users\Oscar\Documents\work\Documentacion\integracionConJson\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Oscar\Documents\work\Documentacion\integracionConJson\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Oscar\Documents\work\Documentacion\integracionConJson\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\bin\Debug\RestSharp.xml
+D:\work\Documentacion\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\obj\Debug\Json.csprojAssemblyReference.cache
+D:\work\Documentacion\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\obj\Debug\Json.Form1.resources
+D:\work\Documentacion\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\obj\Debug\Json.Properties.Resources.resources
+D:\work\Documentacion\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\obj\Debug\Json.csproj.GenerateResource.cache
+D:\work\Documentacion\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\obj\Debug\Json.csproj.CoreCompileInputs.cache
+D:\work\Documentacion\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\obj\Debug\Json.exe
+D:\work\Documentacion\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\obj\Debug\Json.pdb
+D:\work\Documentacion\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\bin\Debug\Json.exe.config
+D:\work\Documentacion\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\bin\Debug\Json.exe
+D:\work\Documentacion\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\bin\Debug\Json.pdb
+D:\work\Documentacion\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\bin\Debug\Newtonsoft.Json.dll
+D:\work\Documentacion\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\bin\Debug\Newtonsoft.Json.xml
+D:\work\Documentacion\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\bin\Debug\RestSharp.xml
+D:\work\Documentacion\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\obj\Debug\Json.csproj.CopyComplete
+E:\work\Documentacion\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\bin\Debug\Json.exe.config
+E:\work\Documentacion\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\bin\Debug\Json.exe
+E:\work\Documentacion\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\bin\Debug\Json.pdb
+E:\work\Documentacion\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\bin\Debug\Newtonsoft.Json.dll
+E:\work\Documentacion\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\bin\Debug\Newtonsoft.Json.xml
+E:\work\Documentacion\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\bin\Debug\RestSharp.xml
+E:\work\Documentacion\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\obj\Debug\Json.csprojAssemblyReference.cache
+E:\work\Documentacion\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\obj\Debug\Json.Form1.resources
+E:\work\Documentacion\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\obj\Debug\Json.Properties.Resources.resources
+E:\work\Documentacion\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\obj\Debug\Json.csproj.GenerateResource.cache
+E:\work\Documentacion\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\obj\Debug\Json.csproj.CoreCompileInputs.cache
+E:\work\Documentacion\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\obj\Debug\Json.csproj.CopyComplete
+E:\work\Documentacion\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\obj\Debug\Json.exe
+E:\work\Documentacion\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\NET_CON_JASON\Json\obj\Debug\Json.pdb
+D:\workFE\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\PUNTO_NET_CON_JSON\Json\bin\Debug\Json.exe.config
+D:\workFE\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\PUNTO_NET_CON_JSON\Json\bin\Debug\Json.exe
+D:\workFE\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\PUNTO_NET_CON_JSON\Json\bin\Debug\Json.pdb
+D:\workFE\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\PUNTO_NET_CON_JSON\Json\bin\Debug\Newtonsoft.Json.dll
+D:\workFE\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\PUNTO_NET_CON_JSON\Json\bin\Debug\Newtonsoft.Json.xml
+D:\workFE\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\PUNTO_NET_CON_JSON\Json\bin\Debug\RestSharp.xml
+D:\workFE\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\PUNTO_NET_CON_JSON\Json\obj\Debug\Json.csprojAssemblyReference.cache
+D:\workFE\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\PUNTO_NET_CON_JSON\Json\obj\Debug\Json.Form1.resources
+D:\workFE\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\PUNTO_NET_CON_JSON\Json\obj\Debug\Json.Properties.Resources.resources
+D:\workFE\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\PUNTO_NET_CON_JSON\Json\obj\Debug\Json.csproj.GenerateResource.cache
+D:\workFE\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\PUNTO_NET_CON_JSON\Json\obj\Debug\Json.csproj.CopyComplete
+D:\workFE\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\PUNTO_NET_CON_JSON\Json\obj\Debug\Json.exe
+D:\workFE\integracionConJson_FV_BV_NC_ND\Codigos Fuentes Varios Lenguajes\PUNTO_NET_CON_JSON\Json\obj\Debug\Json.pdb
