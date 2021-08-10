@@ -24,7 +24,7 @@
   "MNT_DSCTO_GLOB": "",
   "MNT_TOT_OTR_CGO": "",
   "MNT_TOT_TRIB_IGV": "90.00", 
-  "MNT_TOT": "500.00",   
+  "MNT_TOT": "590.00",   
   "COD_PTO_VENTA": "jmifact",
   "ENVIAR_A_SUNAT": "true",
   "RETORNA_XML_ENVIO": "true",

@@ -1,0 +1,63 @@
+{
+   "TOKEN":"gN8zNRBV+/FVxTLwdaZx0w==",
+  "COD_TIP_NIF_EMIS": "6",
+  "NUM_NIF_EMIS": "20100100100",
+  "NOM_RZN_SOC_EMIS": "empresa demo",
+  "NOM_COMER_EMIS": "demo",
+  "COD_UBI_EMIS": "103040",
+  "TXT_DMCL_FISC_EMIS": "avenida abcd",
+  "COD_TIP_NIF_RECP": "6",
+  "NUM_NIF_RECP": "20601847834",
+  "NOM_RZN_SOC_RECP": "osys company sac",
+  "TXT_DMCL_FISC_RECEP": "direccion del cliente",
+  "FEC_EMIS": "2021-08-07",
+  "COD_TIP_CPE": "01",
+  "NUM_SERIE_CPE": "F001",
+  "NUM_CORRE_CPE": "00000030",
+  "COD_MND": "PEN",
+  "MailEnvio": "mifact@outlook.com",
+  "COD_PRCD_CARGA": "001",
+      "COD_TIP_DSCTO":"05", // 05 = dsto anticipo para exonerado, 06 = dscto anticipo para inafectos
+  	  "MNT_TOT_ANTCP":"100.00", // total de anticipo exonerado
+  "MNT_TOT_EXONERADO": "0.00", // sumatoria de todos los items exonerados menos el anticipo total
+  "MNT_TOT_TRIB_IGV": "0.00", 	  
+  "MNT_TOT": "0.00",  // total que se tiene que pagar
+  "COD_PTO_VENTA": "jmifact",
+  "ENVIAR_A_SUNAT": "true",
+  "RETORNA_XML_ENVIO": "false",
+  "RETORNA_XML_CDR": "false",
+  "RETORNA_PDF": "false",
+  "COD_FORM_IMPR":"001",
+	"TXT_VERS_UBL":"2.1",
+	"TXT_VERS_ESTRUCT_UBL":"2.0",
+	"COD_ANEXO_EMIS":"0000",
+	"COD_TIP_OPE_SUNAT": "0101",
+
+  "items": [
+    {      
+       "COD_ITEM": "BCF-RR01",
+      "COD_UNID_ITEM": "NIU",
+      "CANT_UNID_ITEM": "1",
+      "VAL_UNIT_ITEM": "100.00",      
+      "PRC_VTA_UNIT_ITEM": "100.00",
+      "VAL_VTA_ITEM": "100.00",      
+      "MNT_PV_ITEM": "100",
+      "COD_TIP_PRC_VTA": "01",
+      "COD_TIP_AFECT_IGV_ITEM":"20",
+      "COD_TRIB_IGV_ITEM": "1000",
+      "POR_IGV_ITEM": "0.00",
+      "MNT_IGV_ITEM": "0.00",      
+      "TXT_DESC_ITEM": "AUTO TOYOTA YARIS 2018"    
+    }
+  ],
+	"anticipos":[
+		{
+			"NUM_LIN_ANTCP":"1",
+			"FEC_ANTICIPO":"2019-01-01",			
+		  	"MNT_ANTCP":"100.00", // monto anticipo
+			"COD_TIP_DOC_ANTCP":"01",
+			"NUM_SERIE_CPE_ANTCP":"F001",
+			"NUM_CORRE_CPE_ANTCP":"00000001"
+		}
+	]
+}

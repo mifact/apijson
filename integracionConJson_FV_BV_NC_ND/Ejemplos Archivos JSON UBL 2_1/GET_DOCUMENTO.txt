@@ -4,6 +4,7 @@
   "COD_TIP_CPE": "01",
   "NUM_SERIE_CPE": "F004",
   "NUM_CORRE_CPE": "00000027",
+  "FEC_EMIS": "2021-06-19"
   "RETORNA_XML_ENVIO": "false",
   "RETORNA_XML_CDR": "false",
   "RETORNA_PDF": "true",

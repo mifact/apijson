@@ -62,7 +62,7 @@
       "COD_TIP_AFECT_IGV_ITEM":"20",
       "COD_TRIB_IGV_ITEM": "9997",
       "POR_IGV_ITEM": "0.00",
-      "MNT_IGV_ITEM": "0.0.00",      
+      "MNT_IGV_ITEM": "0.00",      
       "TXT_DESC_ITEM": "BOLSA DE BIODEGRADABLE",   
                                 "IMPUESTO_BOLSAS_UNIT":"0.10"
     }
