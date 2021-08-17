@@ -10,8 +10,8 @@
   "NUM_NIF_RECP": "20601847834",
   "NOM_RZN_SOC_RECP": "osys company sac",
   "TXT_DMCL_FISC_RECEP": "direccion del cliente",
-  "FEC_EMIS": "2018-10-09",
-  "FEC_VENCIMIENTO": "2018-10-09",
+  "FEC_EMIS": "2021-08-09",
+  "FEC_VENCIMIENTO": "2021-10-09",
   "COD_TIP_CPE": "01",
   "NUM_SERIE_CPE": "F004",
   "NUM_CORRE_CPE": "00000031",
@@ -21,7 +21,7 @@
   "MNT_TOT_GRAVADO": "200.00", 
   "MNT_TOT_TRIB_IGV": "36.00", 
   "MNT_TOT": "236.00", 
-	"MNT_TOT_GRATUITO":"50.00",
+	"MNT_TOT_GRATUITO":"50.00", // suma total de los items gratuitos (tipo afectacion 11, 12, 13,14,15,16,17) sin el IGV + gratuitos inafectos o exonerados
   "COD_PTO_VENTA": "jmifact",
   "ENVIAR_A_SUNAT": "true",
   "RETORNA_XML_ENVIO": "true",
@@ -38,9 +38,24 @@
       
        "COD_ITEM": "BCF-RR01",
       "COD_UNID_ITEM": "NIU",
+      "CANT_UNID_ITEM": "1",
+      "VAL_UNIT_ITEM": "50.00",      
+      "PRC_VTA_UNIT_ITEM": "50.00",
+      "VAL_VTA_ITEM": "50.00",     
+      "COD_TIP_PRC_VTA": "02", // el tipo de precio de venta es 02 para gratuitos
+      "COD_TIP_AFECT_IGV_ITEM":"35", // tipo de afectacion IGV para gratuitos que no estan afectos al IGV por naturaleza o por ley (ver catalogo en el excel)
+      "COD_TRIB_IGV_ITEM": "9996", // tipo de tributo 9996 para indicar que el producto es gratuito
+      "POR_IGV_ITEM": "0.00",
+      "MNT_IGV_ITEM": "0.00",      
+      "TXT_DESC_ITEM": "PLACA CROMADA DE REGALO"
+    },
+		 {
+      
+       "COD_ITEM": "BCF-RR01",
+      "COD_UNID_ITEM": "NIU",
       "CANT_UNID_ITEM": "2",
       "VAL_UNIT_ITEM": "100.00",      
-      "PRC_VTA_UNIT_ITEM": "236.00",
+      "PRC_VTA_UNIT_ITEM": "118.00",
       "VAL_VTA_ITEM": "200.00",     
       "COD_TIP_PRC_VTA": "01",
       "COD_TIP_AFECT_IGV_ITEM":"10",
@@ -48,21 +63,7 @@
       "POR_IGV_ITEM": "18.00",
       "MNT_IGV_ITEM": "36.00",      
       "TXT_DESC_ITEM": "SUV TOYOTA 2019"
-    },
-    {
-      
-       "COD_ITEM": "BCF-RR01",
-      "COD_UNID_ITEM": "NIU",
-      "CANT_UNID_ITEM": "1",
-      "VAL_UNIT_ITEM": "0.00",      
-      "PRC_VTA_UNIT_ITEM": "50.00",
-      "VAL_VTA_ITEM": "0.00",     
-      "COD_TIP_PRC_VTA": "02",
-      "COD_TIP_AFECT_IGV_ITEM":"35",
-      "COD_TRIB_IGV_ITEM": "9996",
-      "POR_IGV_ITEM": "0.00",
-      "MNT_IGV_ITEM": "0.00",      
-      "TXT_DESC_ITEM": "PLACA CROMADA"
     }
+   
 		]
 }
