@@ -1,5 +1,5 @@
 ﻿{
-   "TOKEN":"8uijiiiiii=",
+   "TOKEN":"gN8zNRBV+/FVxTLwdaZx0w==",
   "COD_TIP_NIF_EMIS": "6",
   "NUM_NIF_EMIS": "20100100100",
   "FEC_EMIS": "2018-02-21",

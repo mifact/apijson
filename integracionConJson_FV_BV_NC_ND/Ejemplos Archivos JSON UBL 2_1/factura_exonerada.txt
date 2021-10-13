@@ -16,6 +16,7 @@
   "NUM_SERIE_CPE": "F001",
   "NUM_CORRE_CPE": "00000027",
   "COD_MND": "PEN",
+  "TIP_CAMBIO":"1.000", // SI ES EN OTRA MONEDA DIFERENTE DE (PEN) ENVIAR EL TIPO DE CAMBIO HASTA 3 DECIMALES, SI ES (PEN) NO ES OBLIGATORIO ENVIAR ESTE FLAG
   "MailEnvio": "mifact@outlook.com",
   "COD_PRCD_CARGA": "001",
   "MNT_TOT_GRAVADO": "0.00", 
@@ -41,17 +42,14 @@
       "CANT_UNID_ITEM": "1",
       "VAL_UNIT_ITEM": "500",      
       "PRC_VTA_UNIT_ITEM": "500",
-      "VAL_VTA_ITEM": "500",
-      "MNT_BRUTO": "500.00",
+      "VAL_VTA_ITEM": "500",      
       "MNT_PV_ITEM": "500",
       "COD_TIP_PRC_VTA": "01",
       "COD_TIP_AFECT_IGV_ITEM":"20",
       "COD_TRIB_IGV_ITEM": "9997",
       "POR_IGV_ITEM": "0.00",
       "MNT_IGV_ITEM": "0.00",      
-      "TXT_DESC_ITEM": "AUTO TOYOTA YARIS 2018",                  
-      "DET_VAL_ADIC01": "dato adiciona al item: AñO DE FABRICACION 2018  ",
-      "DET_VAL_ADIC02": "VERSION FULLL"
+      "TXT_DESC_ITEM": "AUTO TOYOTA YARIS 2018"
     }
   ],
 }

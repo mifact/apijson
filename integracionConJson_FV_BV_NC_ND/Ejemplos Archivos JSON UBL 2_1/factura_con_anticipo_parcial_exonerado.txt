@@ -15,6 +15,7 @@
   "NUM_SERIE_CPE": "F001",
   "NUM_CORRE_CPE": "00000030",
   "COD_MND": "PEN",
+  "TIP_CAMBIO":"1.000", // SI ES EN OTRA MONEDA DIFERENTE DE (PEN) ENVIAR EL TIPO DE CAMBIO HASTA 3 DECIMALES, SI ES (PEN) NO ES OBLIGATORIO ENVIAR ESTE FLAG
   "MailEnvio": "mifact@outlook.com",
   "COD_PRCD_CARGA": "001",
 		"COD_TIP_DSCTO":"05", // 05 dsto anticipo para exonerado, 06 dscto anticipo para inafectos

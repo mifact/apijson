@@ -15,11 +15,12 @@
   "NUM_SERIE_CPE": "FC01",
   "NUM_CORRE_CPE": "00000031",
   "COD_MND": "PEN",
+  "TIP_CAMBIO":"1.000", // SI ES EN OTRA MONEDA DIFERENTE DE (PEN) ENVIAR EL TIPO DE CAMBIO HASTA 3 DECIMALES, SI ES (PEN) NO ES OBLIGATORIO ENVIAR ESTE FLAG
   "MailEnvio": "mifact@outlook.com",
   "COD_PRCD_CARGA": "001",
-  "MNT_TOT_GRAVADO": "1000.00", 
-  "MNT_TOT_TRIB_IGV": "180.00", 
-  "MNT_TOT": "1180.00", 
+  "MNT_TOT_GRAVADO": "0.00", // cuando la nota de credito es tipo 13 (tag COD_TIP_NC), no se envian montos, por que solo es para modificar las cuotas
+  "MNT_TOT_TRIB_IGV": "0.00", // cuando la nota de credito es tipo 13 (tag COD_TIP_NC), no se envian montos, por que solo es para modificar las cuotas
+  "MNT_TOT": "0.00", // cuando la nota de credito es tipo 13 (tag COD_TIP_NC), no se envian montos, por que solo es para modificar las cuotas
   "COD_PTO_VENTA": "jmifact",
   "ENVIAR_A_SUNAT": "true",
   "RETORNA_XML_ENVIO": "true",
@@ -30,50 +31,43 @@
 	"TXT_VERS_ESTRUCT_UBL":"2.0",
 	"COD_ANEXO_EMIS":"0000",
 	"COD_TIP_OPE_SUNAT": "0101",
-	    "COD_TIP_NC": "13",
-	"TXT_DESC_MTVO": "CAMBIO DE CUOTAS DE PAGO",
+	    "COD_TIP_NC": "13", // tipo de nota de credito para modificacion de cuotas de una factura original a credito
+	    "TXT_DESC_MTVO": "CAMBIO DE CUOTAS DE PAGO", // motivo de la nota de credito
+      "MNT_PENDIENTE":"1180.00", //el monto pendiente(MNT_PENDIENTE) es el calculo del total de la factura original menos el total de la detraccion o retencion si fuese aplicada en la factura original
   "items": [
     {
       
        "COD_ITEM": "BCF-RR01",
       "COD_UNID_ITEM": "NIU",
       "CANT_UNID_ITEM": "1",
-      "VAL_UNIT_ITEM": "500",      
-      "PRC_VTA_UNIT_ITEM": "590",
-      "VAL_VTA_ITEM": "500",
-      "MNT_BRUTO": "500.00",
-      "MNT_PV_ITEM": "590",
+      "VAL_UNIT_ITEM": "0.00",    // cuando la nota de credito es tipo 13 (tag COD_TIP_NC), no se envian montos, por que solo es para modificar las cuotas  
+      "PRC_VTA_UNIT_ITEM": "0.00",// cuando la nota de credito es tipo 13 (tag COD_TIP_NC), no se envian montos, por que solo es para modificar las cuotas
+      "VAL_VTA_ITEM": "0.00",      // cuando la nota de credito es tipo 13 (tag COD_TIP_NC), no se envian montos, por que solo es para modificar las cuotas
+      "MNT_PV_ITEM": "0.00",// cuando la nota de credito es tipo 13 (tag COD_TIP_NC), no se envian montos, por que solo es para modificar las cuotas
       "COD_TIP_PRC_VTA": "01",
       "COD_TIP_AFECT_IGV_ITEM":"10",
       "COD_TRIB_IGV_ITEM": "1000",
       "POR_IGV_ITEM": "18",
-      "MNT_IGV_ITEM": "90",      
-      "TXT_DESC_ITEM": "AUTO TOYOTA YARIS 2018",                  
-      "DET_VAL_ADIC01": "dato adiciona al item: AÑO DE FABRICACION 2018  ",
-      "DET_VAL_ADIC02": "VERSION FULLL",
-      "DET_VAL_ADIC03": "COLOR:GRIS",
-      "DET_VAL_ADIC04": "NRO. MOTOR: JP8383838HYHYJJDD",
-      "MNT_DSCTO_ITEM": "0.00",
-      "MNT_RECGO_ITEM": "0.00"
+      "MNT_IGV_ITEM": "0.00",   // cuando la nota de credito es tipo 13 (tag COD_TIP_NC), no se envian montos, por que solo es para modificar las cuotas   
+      "TXT_DESC_ITEM": "AUTO TOYOTA YARIS 2018"
+      
     },
     {
        
        "COD_ITEM": "BCF-RR02",
       "COD_UNID_ITEM": "NIU",
       "CANT_UNID_ITEM": "1",
-      "VAL_UNIT_ITEM": "500",      
-      "PRC_VTA_UNIT_ITEM": "590",
-      "VAL_VTA_ITEM": "500",
-      "MNT_BRUTO": "500.00",
-      "MNT_PV_ITEM": "590",
+      "VAL_UNIT_ITEM": "0.00",      
+      "PRC_VTA_UNIT_ITEM": "0.00",
+      "VAL_VTA_ITEM": "0.00",      
+      "MNT_PV_ITEM": "0.00",
       "COD_TIP_PRC_VTA": "01",
       "COD_TIP_AFECT_IGV_ITEM":"10",
       "COD_TRIB_IGV_ITEM": "1000",
       "POR_IGV_ITEM": "18",
-      "MNT_IGV_ITEM": "90",  
-      "TXT_DESC_ITEM": "DETALLE DEL PRODUCTO 2",                  
-      "MNT_DSCTO_ITEM": "0.00",
-      "MNT_RECGO_ITEM": "0.00"
+      "MNT_IGV_ITEM": "0.00",  
+      "TXT_DESC_ITEM": "DETALLE DEL PRODUCTO 2"
+      
     }
   ],
 	"docs_referenciado": [

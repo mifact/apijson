@@ -1,9 +1,9 @@
 {
-   "TOKEN": "gN8zNRBV+/FVxTLwdaZx0w==",
+"TOKEN": "gN8zNRBV+/FVxTLwdaZx0w==",
  "COD_TIP_NIF_EMIS": "06",
  "NUM_NIF_EMIS": "20100100100",
- "NOM_RZN_SOC_EMIS": "BATERIAS NUEVO AMANECER S.A.C",
- "NOM_COMER_EMIS": "BATERIAS NUEVO AMANECER S.A.C",
+ "NOM_RZN_SOC_EMIS": "EMPRESA DEMO SAC",
+ "NOM_COMER_EMIS": "EMPRESA DEMO SAC",
  "COD_UBI_EMIS": "150115",
  "TXT_DMCL_FISC_EMIS": "NICOLAS ARRIOLA NRO. 2095 - LIMA LIMA LA VICTORIA",
  "COD_ANEXO_EMIS": "0000",
@@ -11,6 +11,8 @@
  "NUM_CORRE_CPE": "00000851",
  "FEC_EMIS": "2021-10-09",
  "COD_TIP_OPE_SUNAT": "0101",
+ "COD_TIP_PAGO": "001",
+ "COD_FRM_PAGO": "EFECTIVO",
  "COD_TIP_CPE": "01",
  "COD_MND": "PEN",
  "TIP_CAMBIO":"1.000", // SI ES EN OTRA MONEDA DIFERENTE DE (PEN) ENVIAR EL TIPO DE CAMBIO HASTA 3 DECIMALES, SI ES (PEN) NO ES OBLIGATORIO ENVIAR ESTE FLAG
@@ -18,9 +20,8 @@
  "NUM_NIF_RECP": "20510797524",
  "NOM_RZN_SOC_RECP": "ARPE CONTRATISTAS GENERALES SOCIEDAD ANONIMA CERRADA",
  "TXT_DMCL_FISC_RECEP": "AV. LAS GAVIOTAS LT. 18B MZ. U URB. LA CAMPIÑA - LIMA LIMA CHORRILLOS, 150108 , Peru",
- "MailEnvio": "correodetucliente@outlook.com",
+ "MailEnvio": "correodelcliente@outlook.com",
  "MNT_TOT_GRAVADO": "1016.95",
- "MNT_TOT_EXONERADO": "0.00",
  "MNT_TOT_TRIB_IGV": "183.05",
  "MNT_TOT": "1200.00",
  "ENVIAR_A_SUNAT": "true",
@@ -28,12 +29,10 @@
  "RETORNA_XML_CDR": "true",
  "RETORNA_PDF": "true",
  "COD_PRCD_CARGA": "001",
-			"MNT_TOT_OTR_CGO": "36", // monto total de la retencion (MNT_TOT_OTR_CGO)
-			"COD_TIP_CARGO":"62",// valor 62 - Códigos de cargos, descuentos y otras deducciones segun el catalogo 53 SUNAT.
-      "MNT_PENDIENTE":"1164.00", //el monto pendiente(MNT_PENDIENTE) es el calculo del total de la factura menos el total de la retencion
+    "MNT_PENDIENTE":"1200.00", //el monto pendiente(MNT_PENDIENTE) es el monto pendiente de pago que tiene que realizar el cliente menos las retenciones o detracciones
  "items": [
   {
-   "COD_ITEM": "afd41",
+   "COD_ITEM": "741",
    "COD_UNID_ITEM": "NIU",
    "CANT_UNID_ITEM": 2,
    "VAL_UNIT_ITEM": "508.47457627",
@@ -47,12 +46,24 @@
    "MNT_PV_ITEM": "1200.00",
    "TXT_DESC_ITEM": "BAT ETNA S-1225 INV PRO 25 PLACAS12V 169 AH"
   }
- ]	,
-  "datos_adicionales": [
+ ],
+ "datos_adicionales": [
   {
    "COD_TIP_ADIC_SUNAT": "01",
-   "TXT_DESC_ADIC_SUNAT": "CONTADO"
+   "TXT_DESC_ADIC_SUNAT": "CREDITO 7 DIAS"
   }
- ]
+ ],
+        "cuotas": [
+        {
+                "NRO_CUOTA":"1",
+                "FECHA_CUOTA":"2022-03-11",
+                "MONTO_CUOTA":"100"
+            },
+                {
+                "NRO_CUOTA":"2",
+                "FECHA_CUOTA":"2022-03-15",
+                "MONTO_CUOTA":"1100"
+            }
+                ]
 }
 

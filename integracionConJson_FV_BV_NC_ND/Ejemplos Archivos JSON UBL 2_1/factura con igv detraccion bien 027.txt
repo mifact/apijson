@@ -10,19 +10,16 @@
   "NUM_NIF_RECP": "20553560765",
   "NOM_RZN_SOC_RECP": "JNETSYS CLOUD SOLUTIONS SAC",
   "TXT_DMCL_FISC_RECEP": "MONTE ALAMO",
-  "FEC_EMIS": "2018-09-19",
-  "FEC_VENCIMIENTO": "2018-09-19",
+  "FEC_EMIS": "2021-10-09",
   "COD_TIP_CPE": "01",
   "NUM_SERIE_CPE": "F003",
   "NUM_CORRE_CPE": "00000031",
   "COD_MND": "PEN",
+  "TIP_CAMBIO":"1.000", // SI ES EN OTRA MONEDA DIFERENTE DE (PEN) ENVIAR EL TIPO DE CAMBIO HASTA 3 DECIMALES, SI ES (PEN) NO ES OBLIGATORIO ENVIAR ESTE FLAG
   "NUM_PLACA": "HNT384",
   "MailEnvio": "mifact@outlook.com",
   "COD_PRCD_CARGA": "001",
-  "MNT_TOT_GRAVADO": "500.00", 
-  "MNT_TOT_DESCUENTO": "",
-  "MNT_DSCTO_GLOB": "",
-  "MNT_TOT_OTR_CGO": "",
+  "MNT_TOT_GRAVADO": "500.00",   
   "MNT_TOT_TRIB_IGV": "90.00", 
   "MNT_TOT": "590.00",   
   "COD_PTO_VENTA": "jmifact",
@@ -33,13 +30,13 @@
 	"COD_FORM_IMPR":"001",
 	"TXT_VERS_UBL":"2.1",
 	"TXT_VERS_ESTRUCT_UBL":"2.0",
-	"COD_ANEXO_EMIS":"0000",
-	
-	"COD_TIP_OPE_SUNAT": "1004",
-	 "MNT_TOT_DETRACCION": "141.60",
-	 "POR_DETRACCION": "4.00",   
-	"NRO_CUENTA_DETRAC":"0002883838383",
-	"COD_TIP_DETRACCION":"027",
+	"COD_ANEXO_EMIS":"0000",	
+	  "COD_TIP_OPE_SUNAT": "1004",// valor 1004 - tipo de Operacion SUNAT, indica que la factura es afecto a detraccion; catalogo SUNAT 51
+	  "MNT_TOT_DETRACCION": "23.60", // monto total de la detraccion sobre el total de la factura
+	  "POR_DETRACCION": "4.00",   // porcentaje de la detaccion
+	  "NRO_CUENTA_DETRAC":"0002883838383", // nro de cuenta de detracciones del contribuyente
+	  "COD_TIP_DETRACCION":"027", // tipo de detraccion segun el catalogo de detracciones SUNAT
+    "MNT_PENDIENTE":"566.40", //el monto pendiente(MNT_PENDIENTE) es el calculo del total de la factura menos el total de la detraccion
 	"transporte": [
     {
 			"COD_UBI_PRTD":"150101",
@@ -51,8 +48,7 @@
 	"VALOR_REF_CARGA_EFECT":"15.00",
 	"VALOR_REF_CARGA_UTIL":"18.00"
 		}
-	],
-	
+	],	
   "items": [
     {
       

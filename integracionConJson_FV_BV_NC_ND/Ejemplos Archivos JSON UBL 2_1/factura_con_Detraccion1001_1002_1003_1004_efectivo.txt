@@ -10,12 +10,12 @@
   "NUM_NIF_RECP": "20601847834",
   "NOM_RZN_SOC_RECP": "osys company sac",
   "TXT_DMCL_FISC_RECEP": "direccion del cliente",
-  "FEC_EMIS": "2018-09-19",
-  "FEC_VENCIMIENTO": "2018-09-19",
+  "FEC_EMIS": "2021-10-09",
   "COD_TIP_CPE": "01",
   "NUM_SERIE_CPE": "F004",
   "NUM_CORRE_CPE": "00000031",
   "COD_MND": "PEN",
+  "TIP_CAMBIO":"1.000", // SI ES EN OTRA MONEDA DIFERENTE DE (PEN) ENVIAR EL TIPO DE CAMBIO HASTA 3 DECIMALES, SI ES (PEN) NO ES OBLIGATORIO ENVIAR ESTE FLAG
   "MailEnvio": "mifact@outlook.com",
   "COD_PRCD_CARGA": "001",
   "MNT_TOT_GRAVADO": "1000.00", 
@@ -30,11 +30,12 @@
 	"TXT_VERS_UBL":"2.1",
 	"TXT_VERS_ESTRUCT_UBL":"2.0",
 	"COD_ANEXO_EMIS":"0000",	
-	"COD_TIP_OPE_SUNAT": "1001",
-	 "MNT_TOT_DETRACCION": "141.60",
-	 "POR_DETRACCION": "12.00",   
-	"NRO_CUENTA_DETRAC":"0002883838383",
-	"COD_TIP_DETRACCION":"022",
+	"COD_TIP_OPE_SUNAT": "1001",// valor 1001 - tipo de Operacion SUNAT, indica que la factura es afecto a detraccion; catalogo SUNAT 51
+	 "MNT_TOT_DETRACCION": "141.60",// monto total de la detraccion sobre el total de la factura
+	 "POR_DETRACCION": "12.00",    // porcentaje de la detaccion
+	"NRO_CUENTA_DETRAC":"0002883838383", // nro de cuenta de detracciones del contribuyente
+	"COD_TIP_DETRACCION":"022",  // tipo de detraccion segun el catalogo de detracciones SUNAT
+  "MNT_PENDIENTE":"1038.40":, //el monto pendiente(MNT_PENDIENTE) es el calculo del total de la factura menos el total de la detraccion
   "items": [
     {
       
@@ -43,19 +44,14 @@
       "CANT_UNID_ITEM": "1",
       "VAL_UNIT_ITEM": "500",      
       "PRC_VTA_UNIT_ITEM": "590",
-      "VAL_VTA_ITEM": "500",
-      "MNT_BRUTO": "500.00",
+      "VAL_VTA_ITEM": "500",    
       "MNT_PV_ITEM": "590",
       "COD_TIP_PRC_VTA": "01",
       "COD_TIP_AFECT_IGV_ITEM":"10",
       "COD_TRIB_IGV_ITEM": "1000",
       "POR_IGV_ITEM": "18",
       "MNT_IGV_ITEM": "90",      
-      "TXT_DESC_ITEM": "AUTO TOYOTA YARIS 2018",                  
-      "DET_VAL_ADIC01": "dato adiciona al item: AÑO DE FABRICACION 2018  ",
-      "DET_VAL_ADIC02": "VERSION FULLL",
-      "DET_VAL_ADIC03": "COLOR:GRIS",
-      "DET_VAL_ADIC04": "NRO. MOTOR: JP8383838HYHYJJDD"
+      "TXT_DESC_ITEM": "AUTO TOYOTA YARIS 2018"
     },
     {
        

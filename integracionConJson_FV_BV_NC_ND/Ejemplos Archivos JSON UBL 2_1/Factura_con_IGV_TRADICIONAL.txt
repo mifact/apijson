@@ -15,6 +15,7 @@
   "NUM_SERIE_CPE": "F004",
   "NUM_CORRE_CPE": "00000031",
   "COD_MND": "PEN",
+  "TIP_CAMBIO":"1.000", // SI ES EN OTRA MONEDA DIFERENTE DE (PEN) ENVIAR EL TIPO DE CAMBIO HASTA 3 DECIMALES, SI ES (PEN) NO ES OBLIGATORIO ENVIAR ESTE FLAG
   "MailEnvio": "mifact@outlook.com",
   "COD_PRCD_CARGA": "001",
   "MNT_TOT_GRAVADO": "1000.00", 
@@ -29,8 +30,7 @@
 	"TXT_VERS_UBL":"2.1",
 	"TXT_VERS_ESTRUCT_UBL":"2.0",
 	"COD_ANEXO_EMIS":"0000",
-	"COD_TIP_OPE_SUNAT": "0101",
-	
+	"COD_TIP_OPE_SUNAT": "0101",	
   "items": [
     {
       
@@ -39,19 +39,15 @@
       "CANT_UNID_ITEM": "1",
       "VAL_UNIT_ITEM": "500",      
       "PRC_VTA_UNIT_ITEM": "590",
-      "VAL_VTA_ITEM": "500",
-      "MNT_BRUTO": "500.00",
+      "VAL_VTA_ITEM": "500",   
       "MNT_PV_ITEM": "590",
       "COD_TIP_PRC_VTA": "01",
       "COD_TIP_AFECT_IGV_ITEM":"10",
       "COD_TRIB_IGV_ITEM": "1000",
       "POR_IGV_ITEM": "18",
       "MNT_IGV_ITEM": "90",      
-      "TXT_DESC_ITEM": "AUTO TOYOTA YARIS 2018",                  
-      "DET_VAL_ADIC01": "dato adiciona al item: AÑO DE FABRICACION 2018  ",
-      "DET_VAL_ADIC02": "VERSION FULLL",
-      "DET_VAL_ADIC03": "COLOR:GRIS",
-      "DET_VAL_ADIC04": "NRO. MOTOR: JP8383838HYHYJJDD"
+      "TXT_DESC_ITEM": "AUTO TOYOTA YARIS 2018"              
+     
     },
     {
        
@@ -60,8 +56,7 @@
       "CANT_UNID_ITEM": "1",
       "VAL_UNIT_ITEM": "500",      
       "PRC_VTA_UNIT_ITEM": "590",
-      "VAL_VTA_ITEM": "500",
-      "MNT_BRUTO": "500.00",
+      "VAL_VTA_ITEM": "500",    
       "MNT_PV_ITEM": "590",
       "COD_TIP_PRC_VTA": "01",
       "COD_TIP_AFECT_IGV_ITEM":"10",

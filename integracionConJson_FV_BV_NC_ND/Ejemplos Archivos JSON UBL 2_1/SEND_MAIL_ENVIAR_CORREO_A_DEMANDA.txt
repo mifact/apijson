@@ -1,8 +1,9 @@
 ﻿{
-   "TOKEN":"ikjmu=",
+   "TOKEN":"gN8zNRBV+/FVxTLwdaZx0w==",
   "NUM_NIF_EMIS": "20100100100",
   "COD_TIP_CPE": "01",
   "NUM_SERIE_CPE": "F004",
   "NUM_CORRE_CPE": "00000027",
+  "MailEnvio": "mifact@outlook.com"
   "FEC_EMIS": "2021-06-19" // enviar la fecha para una busqueda mas rapida, desde 15 noviembre 2021 no se aceptara si no se envia este tag
 }
