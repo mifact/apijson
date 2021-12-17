@@ -1,0 +1,9 @@
+{
+"TOKEN":	"gN8zNRBV+/FVxTLwdaZx0w==",
+"NUM_SERIE_RET":	"R001",
+"NUM_CORRE_RET":	"00000029",
+"COD_TIP_RET":	"20",
+"FEC_EMIS_RET":	"2018-01-01", // formato año-mes-dia
+"NUM_NIF_EMIS":	"20100100100",
+"TXT_MTVO_BAJA": "error en los montos"
+}
