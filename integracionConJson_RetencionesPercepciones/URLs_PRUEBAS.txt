@@ -13,3 +13,4 @@ https://demo.mifact.net.pe/api/RetencionService.svc/GetEstatusRetencion
 Para Extraer el pdf, xml enviado a sunat y el cdr respuesta sunat
 https://demo.mifact.net.pe/api/RetencionService.svc/GetRetencion
 
+La estructura de respuesta del servicio esta en el archivo excel.

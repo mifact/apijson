@@ -1,0 +1,13 @@
+﻿// para consultar el PDF, XML o CDR utilizar el metodo GetInvoice ejemplo: https://demo.mifact.net.pe/api/invoiceService.svc/GetInvoice
+{
+   "TOKEN":"gN8zNRBV+/FVxTLwdaZx0w==", // token del emisor, este token gN8zNRBV+/FVxTLwdaZx0w== es de pruebas
+  "NUM_NIF_EMIS": "20100100100",
+  "COD_TIP_CPE": "01",
+  "NUM_SERIE_CPE": "F004",
+  "NUM_CORRE_CPE": "00000027",
+  "FEC_EMIS": "2021-06-19" // enviar la fecha para una busqueda mas rapida, desde 15 noviembre 2021 no se aceptara si no se envia este tag
+  "RETORNA_XML_ENVIO": "false", // si deseas que el servicio retorne el XML generado.
+  "RETORNA_XML_CDR": "false", // si deseas que retorne el CDR de SUNAT (solo si SUNAT acepta al instante) 
+  "RETORNA_PDF": "true", // si deseas que el servicio retorne el PDF en bytes para que luego lo imprimas o almacenes en tu sistema, puedes imprimir tu mismo formato muy aparte de mifact
+  "COD_FORM_IMPR":"001", // formato de PDF 001=A4, 002=A5, 004=ticket80mm
+}

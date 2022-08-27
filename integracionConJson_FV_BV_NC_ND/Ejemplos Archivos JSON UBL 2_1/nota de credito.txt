@@ -1,5 +1,5 @@
 {
-   "TOKEN":"gN8zNRBV+/FVxTLwdaZx0w==",
+   "TOKEN":"gN8zNRBV+/FVxTLwdaZx0w==", // token del emisor, este token gN8zNRBV+/FVxTLwdaZx0w== es de pruebas
   "COD_TIP_NIF_EMIS": "6",
   "NUM_NIF_EMIS": "20100100100",
   "NOM_RZN_SOC_EMIS": "empresa demo",
@@ -16,7 +16,7 @@
   "NUM_SERIE_CPE": "F004",
   "NUM_CORRE_CPE": "00000031",
   "COD_MND": "PEN",
-  "MailEnvio": "mifact@outlook.com",
+  "TXT_CORREO_ENVIO": "mifact@outlook.com", // correo de tu cliente para que el sistema mifact envie despues
   "COD_PRCD_CARGA": "001",
   "MNT_TOT_GRAVADO": "1000.00", 
   "MNT_TOT_TRIB_IGV": "180.00", 
@@ -50,7 +50,7 @@
       "POR_IGV_ITEM": "18",
       "MNT_IGV_ITEM": "90",      
       "TXT_DESC_ITEM": "AUTO TOYOTA YARIS 2018",                  
-      "DET_VAL_ADIC01": "dato adiciona al item: AÑO DE FABRICACION 2018  ",
+      "DET_VAL_ADIC01": "dato adiciona al item: Aï¿½O DE FABRICACION 2018  ",
       "DET_VAL_ADIC02": "VERSION FULLL",
       "DET_VAL_ADIC03": "COLOR:GRIS",
       "DET_VAL_ADIC04": "NRO. MOTOR: JP8383838HYHYJJDD",

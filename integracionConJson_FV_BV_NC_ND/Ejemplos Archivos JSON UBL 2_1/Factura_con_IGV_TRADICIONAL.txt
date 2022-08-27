@@ -1,9 +1,8 @@
 {
-   "TOKEN":"gN8zNRBV+/FVxTLwdaZx0w==",
-  "COD_TIP_NIF_EMIS": "6",
+   "TOKEN":"gN8zNRBV+/FVxTLwdaZx0w==", // token del emisor, este token gN8zNRBV+/FVxTLwdaZx0w== es de pruebas // token del emisor, este token gN8zNRBV+/FVxTLwdaZx0w== es de pruebas
   "NUM_NIF_EMIS": "20100100100",
   "NOM_RZN_SOC_EMIS": "empresa demo",
-  "NOM_COMER_EMIS": "demo",
+  "NOM_COMER_EMIS": "mi nombre comercial es demo",
   "COD_UBI_EMIS": "103040",
   "TXT_DMCL_FISC_EMIS": "avenida abcd",
   "COD_TIP_NIF_RECP": "6",
@@ -11,26 +10,27 @@
   "NOM_RZN_SOC_RECP": "osys company sac",
   "TXT_DMCL_FISC_RECEP": "direccion del cliente",
   "FEC_EMIS": "2020-02-19",
-  "COD_TIP_CPE": "01",
-  "NUM_SERIE_CPE": "F004",
+  "COD_TIP_CPE": "01", // tipo de documento 01 factura, 03 boleta, 07 nota de credito, 08 nota debito (sea electrónico o contingencias)
+  "NUM_SERIE_CPE": "F004", // serie del documento factura con F, boletas con B, contingencias con ceros a la izquierda hasta completar 4 digitos 
   "NUM_CORRE_CPE": "00000031",
   "COD_MND": "PEN",
   "TIP_CAMBIO":"1.000", // SI ES EN OTRA MONEDA DIFERENTE DE (PEN) ENVIAR EL TIPO DE CAMBIO HASTA 3 DECIMALES, SI ES (PEN) NO ES OBLIGATORIO ENVIAR ESTE FLAG
-  "MailEnvio": "mifact@outlook.com",
+  "TXT_CORREO_ENVIO": "mifact@outlook.com", // correo de tu cliente para que el sistema mifact envie despues
   "COD_PRCD_CARGA": "001",
-  "MNT_TOT_GRAVADO": "1000.00", 
-  "MNT_TOT_TRIB_IGV": "180.00", 
-  "MNT_TOT": "1180.00", 
+  "MNT_TOT_GRAVADO": "1000.00", // suma total de valor total de los item (VAL_VTA_ITEM) afectos al IGV 
+  "MNT_TOT_TRIB_IGV": "180.00", // suma total de igv de los item (MNT_IGV_ITEM)
+  "MNT_TOT": "1180.00",  // suma total de la venta (incluye exonerados, afectos a IGV, inafectos menos descuentos)
   "COD_PTO_VENTA": "jmifact",
-  "ENVIAR_A_SUNAT": "true",
-  "RETORNA_XML_ENVIO": "true",
-  "RETORNA_XML_CDR": "false",
-  "RETORNA_PDF": "false",
-  "COD_FORM_IMPR":"001",
+  "ENVIAR_A_SUNAT": "true", // si deseas enviar la factura a SUNAT en ese mismo instante y obtener la respuesta de SUNAT (al enviar true puede demorar 1 a 3 segundos más segun la respuesta de SUNAT u OSE).
+  "RETORNA_XML_ENVIO": "true", // si deseas que el servicio retorne el XML generado.
+  "RETORNA_XML_CDR": "false", // si deseas que retorne el CDR de SUNAT (solo si SUNAT acepta al instante) 
+  "RETORNA_PDF": "false", // si deseas que el servicio retorne el PDF en bytes para que luego lo imprimas o almacenes en tu sistema, puedes imprimir tu mismo formato si deseas
+  "COD_FORM_IMPR":"001", // formato de PDF 001=A4, 002=A5, 004=ticket80mm
 	"TXT_VERS_UBL":"2.1",
 	"TXT_VERS_ESTRUCT_UBL":"2.0",
-	"COD_ANEXO_EMIS":"0000",
+	"COD_ANEXO_EMIS":"0000", // código anexo segun sunat si es principal enviar 0000
 	"COD_TIP_OPE_SUNAT": "0101",	
+  "NUM_PLACA": "HNT384", // placa del vehiculo del cliente, enviar el tag si aplica, caso contrario no enviar el tag 
   "items": [
     {
       
@@ -66,4 +66,10 @@
       "TXT_DESC_ITEM": "DETALLE DEL PRODUCTO 2"
     }
   ],
+   "datos_adicionales": [
+      {
+          "COD_TIP_ADIC_SUNAT": "05", // codigo fijo para identificar observacion
+          "TXT_DESC_ADIC_SUNAT": "texto para alguna observación"
+      }
+  ]
 }

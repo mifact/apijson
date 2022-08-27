@@ -1,5 +1,5 @@
 ﻿{  
-  "TOKEN":"gN8zNRBV+/FVxTLwdaZx0w==",
+  "TOKEN":"gN8zNRBV+/FVxTLwdaZx0w==", // token del emisor, este token gN8zNRBV+/FVxTLwdaZx0w== es de pruebas
   "RETORNA_XML_ENVIO": "false",
   "RETORNA_XML_CDR": "false",
   "RETORNA_PDF": "true",

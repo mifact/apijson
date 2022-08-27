@@ -1,5 +1,6 @@
-﻿{
-   "TOKEN":"gN8zNRBV+/FVxTLwdaZx0w==",
+﻿// Para Anular o dar de baja un documento utilizar el metodo LowInvoice, ejemplo: https://demo.mifact.net.pe/api/invoiceService.svc/LowInvoice
+{
+  "TOKEN":"gN8zNRBV+/FVxTLwdaZx0w==", // token del emisor, este token gN8zNRBV+/FVxTLwdaZx0w== es de pruebas
   "COD_TIP_NIF_EMIS": "6",
   "NUM_NIF_EMIS": "20100100100",
   "FEC_EMIS": "2018-02-21",
@@ -7,5 +8,5 @@
   "NUM_SERIE_CPE": "F004",
   "NUM_CORRE_CPE": "00000027",  
   "TXT_DESC_MTVO": "ANULACION POR ERROR", 
-  "COD_PTO_VENTA": "usuarioABCD" 
+  "COD_PTO_VENTA": "usuarioABCD" // usuario que solicita la anulacion
 }

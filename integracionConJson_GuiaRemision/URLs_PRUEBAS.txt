@@ -18,3 +18,4 @@ Para Enviar correo electronico la guia electronica
 	https://demo.mifact.net.pe/api/GuiaRemision.svc/SendMailGuia
 
 
+La estructura de respuesta del servicio esta en el archivo excel.

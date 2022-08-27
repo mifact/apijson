@@ -1,0 +1,58 @@
+{
+    "NUM_NIF_EMIS": "20100100100",
+    "NOM_RZN_SOC_EMIS": "Demo mifact",    
+    "NOM_COMER_EMIS": "Demo mifact es mi marca comercial",    
+    "COD_TIP_NIF_RECP": "6",
+    "NUM_NIF_RECP": "20511689687",
+    "NOM_RZN_SOC_RECP": "ALTI & TAAR INVERSIONES S.A.C.",    
+    "COD_TIP_CPE": "01", // tipo de documento 01 factura, 03 boleta, 07 nota de credito, 08 nota debito (sea electronico o contingencias)
+    "NUM_SERIE_CPE": "F004", // serie del documento factura y sus notas con F, boletas y sus notas con B, contingencias con ceros a la izquierda hasta completar 4 digitos 
+    "NUM_CORRE_CPE": "00000034",  
+    "COD_ANEXO_EMIS": "0000",    
+    "COD_MND": "PEN",
+    "COD_PRCD_CARGA": "001",
+    "COD_PTO_VENTA": "Jaime Jimenez",// usuario de tu sistema, es opcional el envio del tag    
+    "COD_TIP_OPE_SUNAT": "0101",
+    "COD_UBI_EMIS": "150101",    
+    "FEC_EMIS": "2022-08-27",
+    "FEC_VENCIMIENTO": "",    
+    "MNT_TOT_GRAVADO": "50.00", // suma total de valor total de los item (VAL_VTA_ITEM) afectos al IGV 
+    "MNT_TOT_TRIB_IGV": "5.00", // suma total de igv de los item (MNT_IGV_ITEM) 
+    "MNT_TOT": "55.00",// suma total de la venta (incluye exonerados, afectos a IGV, inafectos menos descuentos)    
+    "TXT_CORREO_ENVIO": "mifact@outlook.com", // correo de tu cliente para que el sistema mifact envie despues
+    "RETORNA_PDF": "true",// si deseas que el servicio retorne el PDF en bytes para que luego lo imprimas o almacenes en tu sistema, puedes imprimir tu mismo formato si deseas
+    "COD_FORM_IMPR": "001",// formato de PDF 001=A4, 002=A5, 004=ticket80mm
+    "RETORNA_XML_CDR": "true", // si deseas que retorne el CDR de SUNAT (solo si SUNAT acepta al instante) 
+    "RETORNA_XML_ENVIO": "true",// si deseas que el servicio retorne el XML generado
+    "ENVIAR_A_SUNAT": "true", // si deseas enviar la factura a SUNAT en ese mismo instante y obtener la respuesta de SUNAT (al enviar true puede demorar 1 a 3 segundos más segun la respuesta de SUNAT u OSE).
+    "TIP_CAMBIO":"1.000", // SI ES EN OTRA MONEDA DIFERENTE DE (PEN) ENVIAR EL TIPO DE CAMBIO HASTA 3 DECIMALES, SI ES (PEN) NO ES OBLIGATORIO ENVIAR ESTE TAG
+    "TOKEN": "gN8zNRBV+/FVxTLwdaZx0w==",
+    "TXT_DMCL_FISC_EMIS": "CALLE LOS JAZMINES",
+    "TXT_DMCL_FISC_RECEP": "CAL. 15 LT. 6 MZ. R URB. CARABAYLLO - LIMA LIMA COMAS",
+    "TXT_VERS_ESTRUCT_UBL": "2.0",
+    "TXT_VERS_UBL": "2.1",   
+    "items": [
+        {
+            "CANT_UNID_ITEM": "1.0",  //cantidad     
+            "VAL_UNIT_ITEM": "50.00", // valor unitario del item sin IGV           
+            "MNT_IGV_ITEM": "5.00", // IGV total del item (VAL_UNIT_ITEM x CANT_UNID_ITEM)
+            "PRC_VTA_UNIT_ITEM": "55.00", // precio unitario del item + igv unitario
+            "VAL_VTA_ITEM": "50.00", // valor total del item del producto de (VAL_UNIT_ITEM x CANT_UNID_ITEM)
+            "MNT_PV_ITEM": "55.00", // monto total de la suma de (VAL_UNIT_ITEM x CANT_UNID_ITEM)+MNT_IGV_ITEM
+            "POR_IGV_ITEM": "10.0", //porcentaje del igv al 10% segun ley 31556           
+            "COD_ITEM": "Cont-Tod-00223",
+            "COD_TIP_AFECT_IGV_ITEM": "10",
+            "COD_TIP_PRC_VTA": "01",
+            "COD_TRIB_IGV_ITEM": "1000",
+            "COD_UNID_ITEM": "PK",
+            "TXT_DESC_ITEM": "Contometro 58m x 10 unidades"
+            
+        }
+    ],
+    "datos_adicionales": [
+      {
+          "COD_TIP_ADIC_SUNAT": "05",
+          "TXT_DESC_ADIC_SUNAT": "alguna observación"
+      }
+  ]
+}

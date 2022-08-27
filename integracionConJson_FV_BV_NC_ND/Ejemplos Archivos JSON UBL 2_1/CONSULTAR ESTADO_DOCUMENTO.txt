@@ -1,0 +1,10 @@
+﻿// para consultar el estado del documento en mifact y SUNAT, utilizar el metodo GetEstatusInvoice ejemplo: https://demo.mifact.net.pe/api/invoiceService.svc/GetEstatusInvoice
+// (respuesta del servicio retornara en el tag  "estado_documento" en proceso=101, aceptado=102, aceptado con observacion=103 rechazado=104, solicitud de baja = 108, anulado=105) 
+{  
+  "TOKEN":"gN8zNRBV+/FVxTLwdaZx0w==", // token del emisor, este token gN8zNRBV+/FVxTLwdaZx0w== es de pruebas
+  "NUM_NIF_EMIS": "20100100100", // ruc del emisor, este ruc es de pruebas
+  "COD_TIP_CPE": "01",
+  "NUM_SERIE_CPE": "F004",
+  "NUM_CORRE_CPE": "00000027",
+  "FEC_EMIS": "2021-06-19" // enviar la fecha para una busqueda mas rapida, desde 15 noviembre 2021 no se aceptara si no se envia este tag 
+}
