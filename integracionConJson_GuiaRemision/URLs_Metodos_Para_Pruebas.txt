@@ -1,11 +1,11 @@
 Token a utilizar para pruebas es: gN8zNRBV+/FVxTLwdaZx0w==
 RUC o NIF para pruebas es: 20100100100
 
-Para Envio de guia de remision remitente
+Para Envio de guia de remision remitente es el metodo SendGuia ejemplo:
 	https://demo.mifact.net.pe/api/GuiaRemision.svc/SendGuia
 
 
-Para Anular o dar de baja una guia
+Para Anular o dar de baja una guia, por orden de SUNAT por el momento no se puede anular desde el sistema del contribnuyente, solo desde la clave sol
 	https://demo.mifact.net.pe/api/GuiaRemision.svc/LowGuia
 
 Para Extraer el estado del documento, tanto del sistema mifact como el estado en sunat (estado_documento : 101 es en proceso, 102 aceptado, 103 es aceptado con observacion, 104 es rechazado por sunat, 105 es anulado, 108 es en solicitud de baja no enviado a sunat por el momento) 
@@ -19,3 +19,6 @@ Para Enviar correo electronico la guia electronica
 
 
 La estructura de respuesta del servicio esta en el archivo excel.
+
+Esta URl es la URL Base de demo, cuando sepase a produccion se enviara otra URL, los metodos SendGuia, LowGuia, GetEstatusGuia,GetGuia, SendMailGuia son los mismos para produccion
+https://demo.mifact.net.pe/api/GuiaRemision.svc/

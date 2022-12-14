@@ -4,7 +4,6 @@
   "COD_TIP_GUR": "09",  
   "NUM_SERIE_GUR": "T001",
   "NUM_CORRE_GUR": "00000110",
- "FEC_EMIS_GUR": "2018-08-13", 
-  "TXT_DESC_MTVO": "ANULACION POR ERROR", 
-  "COD_PTO_VENTA": "usuarioABCD" 
+  "FEC_EMIS_GUR":"2022-12-08", // obligatorio desde 1 enero 2023
+  "TXT_CORREO_ENVIO": "mifact@outlook.com"
 }
