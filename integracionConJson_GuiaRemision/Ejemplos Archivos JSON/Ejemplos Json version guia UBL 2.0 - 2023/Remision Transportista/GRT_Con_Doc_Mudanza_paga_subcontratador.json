@@ -1,0 +1,67 @@
+﻿{
+   "INDICADOR_PAGADOR_FLETE_REMITENTE": "0",
+   "INDICADOR_TRASLADO_TOTAL_BIENES": "0",
+   "INDICADOR_TRASLADO_SUB_CONTRATADO": "1",
+   "INDICADOR_PAGADOR_FLETE_SUB_CONTRATADOR": "1",
+   "INDICADOR_PAGADOR_FLETE_TERCERO": "0",
+   "NRO_REGISTRO_MTC": "05625625",
+   "TXT_VERS_UBL": "2.1",
+   "TXT_VERS_ESTRUCT_UBL": "2.0",
+   "TOKEN": "gN8zNRBV+/FVxTLwdaZx0w==",
+   "RETORNA_XML_ENVIO": false,
+   "RETORNA_XML_CDR": false,
+   "OBSERVACIONES": "ninguna observacion",
+   "COD_TIP_NIF_EMIS": "6",
+   "NUM_NIF_EMIS": "20100100100",
+   "NOM_COMER_EMIS": "TU NOMBRE COMERCIAL",
+   "TXT_DMCL_FISC_EMIS": "CALLE LAS GAVIOTAS 117 SURQUILLO",
+   "NOM_RZN_SOC_EMIS": "OSYS COMPANY SAC",
+   "COD_UBI_EMIS": "150101",
+   "COD_TIP_GUR": "31",
+   "NUM_SERIE_GUR": "V001",
+   "NUM_CORRE_GUR": "00000007",
+   "COD_PRCD_CARGA": "001",
+   "FEC_EMIS_GUR": "2022-12-20",
+   "FEC_TRASLADO": "2022-12-21",
+   "DIR_PARTIDA": "Av. Tacna 670 - Lima",
+   "UBI_PARTIDA": "150131",
+   "DIR_LLEGADA": "AV. TACNA 569 - LIMA LIMA LIMA",
+   "UBI_LLEGADA": "150101",
+   "COD_TIP_NIF_DEST": "6",
+   "NOM_RZN_SOC_DEST": "KORBO'S LOGISTIC E.I.R.L.",
+   "NUM_NIF_DEST": "20605457003",
+   "COD_TIP_NIF_REMIT": "6",
+   "NOM_RZN_SOC_REMITENTE": "Carlos Miranda",
+   "NUM_NIF_REMITENTE": "10432056766",
+   "NRO_LICENCIA_CONDUCT": "Q43205676",
+   "COD_TIP_NIF_CONDUCT": "1",
+   "NUM_NIF_CONDUCT": "45859632",
+   "NOM_RZN_SOC_CONDUCT": "JOSÉ MÁRIA",
+   "PLACA": "V1H862",
+   "IND_TRANSBORDO": false,
+   "UND_MEDIDA": "KGM",
+   "PESO_BRUTO": "25",
+   "CONSTANCIA_VEHICULAR_TUC": "MTCVH00781",
+   "ENTIDAD_EMISORA_AUT_TRANSPORTISTA": "",
+   "NRO_AUTORIZACION_ESPECIAL_EMISORA": "",
+   "ENTIDAD_EMISORA_AUT_VEHICULO": "",
+   "NRO_AUTORIZACION_ESPECIAL_VEHICULO": "",
+   "COD_TIP_NIF_TRANSP": "6",
+   "NUM_NIF_TRANSP": "20498189637",
+   "NOM_RZN_SOC_TRANSP": "EXPRESO MARVISUR",
+   "items": [
+      {
+         "CANT_ITEM": 1,
+         "COD_ITEM": "-", // cuando indica el documento referenciado codigo 82 enviar un guion
+         "DESC_ITEM": "televisor, 1 lavadora, 2 escritorios, 1 laptop",
+         "COD_UND_MEDIDA_ITEM": "EA", // enviar como valor fijo EA cuando indica el documento referenciado codigo 82
+         "NUM_LINEA": 0 // cuando indica el documento referenciado codigo 82, se envia este tag en valor cero
+      }
+   ],
+   "docs_referenciado": [
+      {
+         "COD_TIP_DOC_REF": "82",
+         "NUM_DOC_REF": "00000023"
+      }
+   ]
+}
