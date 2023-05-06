@@ -10,8 +10,8 @@
   "NUM_NIF_RECP": "20601847834",
   "NOM_RZN_SOC_RECP": "osys company sac",
   "TXT_DMCL_FISC_RECEP": "direccion del cliente",
-  "FEC_EMIS": "2021-08-09",
-  "FEC_VENCIMIENTO": "2021-10-09",
+  "FEC_EMIS": "2023-05-05",
+  "FEC_VENCIMIENTO": "2023-05-05",
   "COD_TIP_CPE": "01",
   "NUM_SERIE_CPE": "F004",
   "NUM_CORRE_CPE": "00000031",
@@ -21,7 +21,7 @@
   "MNT_TOT_GRAVADO": "0.00", 
   "MNT_TOT_TRIB_IGV": "0.00", 
   "MNT_TOT": "0.00", 
-	"MNT_TOT_GRATUITO":"84.75", // suma total de los items gratuitos (tipo afectacion 11, 12, 13,14,15,16,17) sin el IGV
+	"MNT_TOT_GRATUITO":"200.00", // suma total de los items gratuitos
 	"MNT_DSCTO_GLOB": "0.00",
   "COD_PTO_VENTA": "jmifact",
   "ENVIAR_A_SUNAT": "true",
@@ -32,23 +32,21 @@
 	"TXT_VERS_UBL":"2.1",
 	"TXT_VERS_ESTRUCT_UBL":"2.0",
 	"COD_ANEXO_EMIS":"0000",
-	"COD_TIP_OPE_SUNAT": "0101",
-	
+	"COD_TIP_OPE_SUNAT": "0101",	
   "items": [
-    {
-      
-       "COD_ITEM": "BCF-RR01",
+    {      
+      "COD_ITEM": "BCF-RR01",
       "COD_UNID_ITEM": "NIU",
-      "CANT_UNID_ITEM": "1",
-      "VAL_UNIT_ITEM": "84.75",      
-      "PRC_VTA_UNIT_ITEM": "100.00",
-      "VAL_VTA_ITEM": "84.75",     
-        "COD_TIP_PRC_VTA": "02", // el tipo de precio de venta es 02 para gratuitos
-        "COD_TIP_AFECT_IGV_ITEM":"14", // tipo de afectacion IGV para gratuitos que tienen IGV por naturaleza (ver catalogo en el excel)
-        "COD_TRIB_IGV_ITEM": "9996", // tipo de tributo 9996 para indicar que el producto es gratuito
-        "POR_IGV_ITEM": "18.00",
-        "MNT_IGV_ITEM": "15.25",      
-      "TXT_DESC_ITEM": "PANETON MIFACT REGALO"
+      "TXT_DESC_ITEM": "REGALO PRUEBA",
+      "CANT_UNID_ITEM": "2",
+      "VAL_UNIT_ITEM": "100.00",  // valor unitario el producto incluido el igv al igual que el tag PRC_VTA_UNIT_ITEM 
+      "PRC_VTA_UNIT_ITEM": "100.00", // valor unitario el producto incluido el igv al igual que el tag PRC_VTA_UNIT_ITEM 
+      "VAL_VTA_ITEM": "200.00",   //  multiplicacion del tag CANT_UNID_ITEM x VAL_UNIT_ITEM       
+      "POR_IGV_ITEM": "18.00", // porcentaje del IGV aplicado
+      "MNT_IGV_ITEM": "36.00", // igv del tag PRC_VTA_UNIT_ITEM o VAL_UNIT_ITEM
+      "COD_TIP_PRC_VTA": "02", // el tipo de precio de venta es 02 para gratuitos
+      "COD_TIP_AFECT_IGV_ITEM":"14", // tipo de afectacion IGV para gratuitos que tienen IGV por naturaleza (ver catalogo en el excel)
+      "COD_TRIB_IGV_ITEM": "9996" // tipo de tributo 9996 para indicar que el producto es gratuito      
     }
 		]
 }
