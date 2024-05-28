@@ -1,0 +1,76 @@
+{
+    "TOKEN": "gN8zNRBV+/FVxTLwdaZx0w==", // token del emisor, este token gN8zNRBV+/FVxTLwdaZx0w== es de pruebas
+    "COD_TIP_NIF_EMIS": "6",
+    "NUM_NIF_EMIS": "20100100100",
+    "NOM_RZN_SOC_EMIS": "empresa demo",
+    "NOM_COMER_EMIS": "demo",
+    "COD_UBI_EMIS": "103040",
+    "TXT_DMCL_FISC_EMIS": "avenida abcd",
+    "COD_TIP_NIF_RECP": "6",
+    "NUM_NIF_RECP": "20601847834",
+    "NOM_RZN_SOC_RECP": "osys company sac",
+    "TXT_DMCL_FISC_RECEP": "direccion del cliente",
+    "FEC_EMIS": "2024-03-30",
+    "COD_TIP_CPE": "07",
+    "NUM_SERIE_CPE": "FC01",
+    "NUM_CORRE_CPE": "00000031",
+    "COD_MND": "PEN",
+    "TIP_CAMBIO": "1.000", // SI ES EN OTRA MONEDA DIFERENTE DE (PEN) ENVIAR EL TIPO DE CAMBIO HASTA 3 DECIMALES, SI ES (PEN) NO ES OBLIGATORIO ENVIAR ESTE FLAG
+    "TXT_CORREO_ENVIO": "mifact@outlook.com", // correo de tu cliente para que el sistema mifact envie despues
+    "COD_PRCD_CARGA": "001",
+    "MNT_TOT_GRAVADO": "0.00", 
+    "MNT_TOT_TRIB_IGV": "0.00", // cuando la nota de credito es tipo 03 (tag COD_TIP_NC), no se envian montos, por que solo es para modificar la descripcion
+    "MNT_TOT": "0.00", // cuando la nota de credito es tipo 03 (tag COD_TIP_NC), no se envian montos, por que solo es para modificar la descripcion
+    "COD_PTO_VENTA": "jmifact",
+    "ENVIAR_A_SUNAT": "true",
+    "RETORNA_XML_ENVIO": "true",
+    "RETORNA_XML_CDR": "false",
+    "RETORNA_PDF": "false",
+    "COD_FORM_IMPR": "001",
+    "TXT_VERS_UBL": "2.1",
+    "TXT_VERS_ESTRUCT_UBL": "2.0",
+    "COD_ANEXO_EMIS": "0000",
+    "COD_TIP_OPE_SUNAT": "0101",
+    "COD_TIP_NC": "03", // tipo de nota de credito para Corrección por error en la descripción
+    "TXT_DESC_MTVO": "Corrección en la descripción", // motivo de la nota de credito    
+    "items": [
+        {
+            "COD_ITEM": "BCF-RR01",
+            "COD_UNID_ITEM": "NIU",
+            "CANT_UNID_ITEM": "1",
+            "VAL_UNIT_ITEM": "0.00", // cuando la nota de credito es tipo 03 (tag COD_TIP_NC), no se envian montos, por que solo es para modificar las cuotas  
+            "PRC_VTA_UNIT_ITEM": "0.00", // cuando la nota de credito es tipo 03 (tag COD_TIP_NC), no se envian montos, por que solo es para modificar las cuotas
+            "VAL_VTA_ITEM": "0.00", // cuando la nota de credito es tipo 03 (tag COD_TIP_NC), no se envian montos, por que solo es para modificar las cuotas
+            "MNT_PV_ITEM": "0.00", // cuando la nota de credito es tipo 03 (tag COD_TIP_NC), no se envian montos, por que solo es para modificar las cuotas
+            "COD_TIP_PRC_VTA": "01",
+            "COD_TIP_AFECT_IGV_ITEM": "10",
+            "COD_TRIB_IGV_ITEM": "1000",
+            "POR_IGV_ITEM": "18",
+            "MNT_IGV_ITEM": "0.00", // cuando la nota de credito es tipo 03 (tag COD_TIP_NC), no se envian montos, por que solo es para modificar las cuotas   
+            "TXT_DESC_ITEM": "AUTO TOYOTA YARIS 2018"
+        },
+        {
+            "COD_ITEM": "BCF-RR02",
+            "COD_UNID_ITEM": "NIU",
+            "CANT_UNID_ITEM": "1",
+            "VAL_UNIT_ITEM": "0.00",
+            "PRC_VTA_UNIT_ITEM": "0.00",
+            "VAL_VTA_ITEM": "0.00",
+            "MNT_PV_ITEM": "0.00",
+            "COD_TIP_PRC_VTA": "01",
+            "COD_TIP_AFECT_IGV_ITEM": "10",
+            "COD_TRIB_IGV_ITEM": "1000",
+            "POR_IGV_ITEM": "18",
+            "MNT_IGV_ITEM": "0.00",
+            "TXT_DESC_ITEM": "DETALLE DEL PRODUCTO 2"
+        }
+    ],
+    "docs_referenciado": [
+        {
+            "COD_TIP_DOC_REF": "01",
+            "NUM_SERIE_CPE_REF": "F001",
+            "NUM_CORRE_CPE_REF": "00000027",
+            "FEC_DOC_REF": "2017-02-01"
+        }
+    ]   
+}
