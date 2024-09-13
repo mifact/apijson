@@ -1,0 +1,12 @@
+{
+"TOKEN":	"gN8zNRBV+/FVxTLwdaZx0w==",
+"NUM_SERIE_RET":	"P001",
+"NUM_CORRE_RET":	"00000029",
+"COD_TIP_RET":	"40",
+"FEC_EMIS_RET":	"2024-09-11",
+"NUM_NIF_EMIS":	"20100100100",
+"COD_FORM_IMPR":	"001",
+"RETORNA_XML_ENVIO": "true", // false no deseo obtener el XML generado, true si deseo recuperar el XML firmado y enviado a SUNAT
+"RETORNA_XML_CDR": "false", // false no desea obtener el CDR, true si deseo saber cual es el CDR
+"RETORNA_PDF": "true" // voy a recuperar el PDF
+}
